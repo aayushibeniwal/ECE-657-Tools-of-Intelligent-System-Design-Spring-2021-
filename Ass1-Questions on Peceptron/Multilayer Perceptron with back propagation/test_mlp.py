@@ -1,12 +1,9 @@
-STUDENT_NAME = 'Swapnil Rana, Yash Tiwari, Aayushi Beniwal'
-STUDENT_ID = '20889050, 20911298, 20892602'
-
 import numpy as np
 import pandas as pd
 from acc_calc import accuracy
 
 
-data = pd.read_csv(r'D:\Canada\1_University of Waterloo\Classes\657\Assignment 1\train_data.csv')
+data = pd.read_csv('train_data.csv')
 data = data.assign(Bias=np.ones(len(data)))
 
 X = data.to_numpy()
