@@ -1,2 +1,3 @@
 
-[Q4 summary.pdf](https://github.com/aayushibeniwal/ECE-657-Tools-of-Intelligent-System-Design-Spring-2021-/files/8834461/Q4.summary.pdf)
+![image](https://user-images.githubusercontent.com/24928445/171915060-cc74a64d-5ab6-47a3-91f7-dd3b7482a522.png)
+
