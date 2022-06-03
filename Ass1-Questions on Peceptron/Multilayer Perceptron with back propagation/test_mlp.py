@@ -10,7 +10,7 @@ X = data.to_numpy()
 
 from sklearn.model_selection import train_test_split
 
-Y = pd.read_csv(r'D:\Canada\1_University of Waterloo\Classes\657\Assignment 1\train_labels.csv')
+Y = pd.read_csv('train_labels.csv')
 y = Y.to_numpy()
 # Split the data in train_validate_test: 80:20 Train:Test
 X_train_val, X_test, y_train_val, y_test = train_test_split(X, y, test_size=0.2, random_state=50)
